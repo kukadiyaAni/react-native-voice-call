@@ -11,5 +11,5 @@ if ! type "tar" > /dev/null; then
 fi
 
 curl -LO https://github.com/kukadiyaAni/pjsip-release/archive/refs/tags/V2.12.1.tar.gz
-tar -xvf release.tar.gz
-rm release.tar.gz
+tar -xvf V2.12.1.tar.gz
+rm V2.12.1.tar.gz
