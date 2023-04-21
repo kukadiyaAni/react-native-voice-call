@@ -10,6 +10,6 @@ if ! type "tar" > /dev/null; then
     exit 1; 
 fi
 
-curl -LO https://github.com/kukadiyaAni/pjsip-release/releases/download/V2.12.1/pjsip-release.tar.zip
-tar -xvf pjsip-release.tar.zip
-rm pjsip-release.tar.zip
+curl -LO https://github.com/datso/react-native-pjsip-builder/releases/download/v2.7.1-with-vialer/release.tar.gz
+tar -xvf release.tar.gz
+rm release.tar.gz
