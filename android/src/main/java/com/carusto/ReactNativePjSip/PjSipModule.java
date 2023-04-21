@@ -9,6 +9,7 @@ import com.facebook.react.bridge.*;
 public class PjSipModule extends ReactContextBaseJavaModule implements LifecycleEventListener {
 
     private static PjSipBroadcastReceiver receiver;
+    public static String NOTIFICATION_TITLE="Calling...";
 
     public PjSipModule(ReactApplicationContext context) {
         super(context);
@@ -32,7 +33,12 @@ public class PjSipModule extends ReactContextBaseJavaModule implements Lifecycle
     public void checkModule(Callback callback) {
         callback.invoke("Native Module works fine!");
     }
-    
+
+    @ReactMethod
+    public void setNotificationTitle(String title) {
+        this.NOTIFICATION_TITLE = title;
+    }
+
     @ReactMethod
     public void start(ReadableMap configuration, Callback callback) {
         int id = receiver.register(callback);

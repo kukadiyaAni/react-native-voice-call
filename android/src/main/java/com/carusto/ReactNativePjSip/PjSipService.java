@@ -758,7 +758,7 @@ public class PjSipService extends Service {
             Log.e("handleCallMake: ","8" );
             mEmitter.fireIntentHandled(intent, call.toJson());
             Log.e("handleCallMake: ","9" );
-            createNotification("Call in Progress via Prank Caller");
+            createNotification(PjSipModule.NOTIFICATION_TITLE);
         } catch (Exception e) {
             Log.e("handleCallMake: ","10" );
             mEmitter.fireIntentHandled(intent, e);
