@@ -10,6 +10,6 @@ if ! type "tar" > /dev/null; then
     exit 1; 
 fi
 
-curl -LO https://github.com/kukadiyaAni/pjsip-release/releases/download/V2.12.1/release.tar.gz
-tar -xvf release.tar.gz
-rm release.tar.gz
+# curl -LO https://github.com/kukadiyaAni/pjsip-release/releases/download/V2.12.1/release.tar.gz
+# tar -xvf release.tar.gz
+# rm release.tar.gz
