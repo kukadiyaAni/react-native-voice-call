@@ -26,7 +26,7 @@
     "name": "Aniruddh Kukadiya"
   },
   "bugs": {
-    "url": "https://github.com/kukadiyaAni/react-native-pjsip/issues"
+    "url": "https://github.com/kukadiyaAni/react-native-voice-call.git/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -36,7 +36,7 @@
   "description": "PJSIP module for React Native",
   "devDependencies": {},
   "gitHead": "754bd49447e2611afc76fac0928408701fb8a2f0",
-  "homepage": "https://github.com/kukadiyaAni/react-native-pjsip",
+  "homepage": "https://github.com/kukadiyaAni/react-native-voice-call.git",
   "keywords": [
     "react-component",
     "react-native",
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kukadiyaAni/react-native-pjsip.git"
+    "url": "git+https://github.com/kukadiyaAni/react-native-voice-call.git"
   },
   "scripts": {
     "postinstall": "bash libs.sh"
